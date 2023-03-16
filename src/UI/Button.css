@@ -1,0 +1,25 @@
+button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+button:hover {
+    cursor: pointer;
+    filter: brightness(110%);
+}
+
+button:active {
+    outline: none;
+    transform: scale(0.95);
+}
+
+@media screen and (max-width: 450px) {
+    button {
+        width: 50px;
+        height: 50px;
+    }
+}

@@ -1,0 +1,45 @@
+.output {
+    width: 98%;
+    margin-top: 5px;
+    height: 20%;
+    background-color: var(--primary);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end ;
+}
+
+input{
+    background-color: var(--primary);
+    border: none;
+    color: var(--text);
+    padding: 5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+#expression{
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: right;
+    font-weight: 500;
+}
+
+#result {
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: right;
+}
+
+@media screen and (max-width: 700px) {
+    #expression {
+        font-size: 1.4rem;
+    }
+    #result {
+        font-size: 1.8rem;
+    }
+}

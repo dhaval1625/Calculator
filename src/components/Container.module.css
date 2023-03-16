@@ -1,0 +1,15 @@
+.container {
+    width: 90%;
+    max-width: 500px;
+    height: 42rem;
+    max-height: 98vh;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: var(--secondary);
+    box-shadow: 0 0 25px 2px var(--dark);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}

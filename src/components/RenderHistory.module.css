@@ -1,0 +1,55 @@
+.history-modal {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    min-height: 70%;
+    height: fit-content;
+    padding: 10px;
+    padding-top: 30px;
+    border-radius: 8px;
+    background-color: var(--primary);
+    box-shadow: 0 0 30px 3px var(--primary);
+    color: var(--text);
+    z-index: 10;
+    display: none;
+    flex-direction: column;
+    overflow-wrap: break-word;
+}
+
+.close{
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+    background: transparent;
+}
+
+.message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    font-size: 3rem;
+}
+
+p{
+    font-size: 1.2rem;
+    inline-size: 80%;
+    margin-bottom: 3px;
+}
+
+.heading {
+    font-size: 1.3rem;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 5px;
+}
+
+.visible {
+    display: flex;
+}
